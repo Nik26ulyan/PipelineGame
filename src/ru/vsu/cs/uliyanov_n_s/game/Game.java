@@ -169,4 +169,5 @@ public class Game {
     public PipelineCell getCell(int row, int col) {
         return (row < 0 || row >= getRowCount() || col < 0 || col >= getColCount()) ? null : field[row][col];
     }
+
 }

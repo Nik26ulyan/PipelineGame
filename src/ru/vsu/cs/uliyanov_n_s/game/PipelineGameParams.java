@@ -7,10 +7,6 @@ public class PipelineGameParams {
         this.levelName = levelName;
     }
 
-    public PipelineGameParams() {
-        this("exampleLevel");
-    }
-
     public void setLevelName(String levelName) {
         this.levelName = levelName;
     }
